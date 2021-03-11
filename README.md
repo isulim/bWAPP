@@ -10,4 +10,4 @@ just use
 docker run -d -p 80:80 raesene/bwapp
 ```
 
-and you should be able to go to <ip>/install.php to set up your instance.
+It runs a curl request to `/install.php?install=yes`, so it is immediately ready to go.
